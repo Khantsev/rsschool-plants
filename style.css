@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-font-family: "Inter", sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  height: 666px;
+  background-color: #edf2ec;
+}
+.logo-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 688.83px;
+  padding: 42px 109px 42px 111px;
+}
+
+/* Logo */
+.logo-company {
+  display: flex;
+  align-items: baseline;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  padding-left: 1.05px;
+}
+.company {
+  font-family: "Inika, serif";
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* Navigation */
+.nav-bar {
+  width: 452px;
+  height: 50px;
+}
+.nav-list {
+  display: flex;
+  gap: 46px;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  font-family: "Inika, serif";
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #010201;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-link:hover {
+  color: #e06733;
+}
+
+/* Welcome */
+.welcome-wrap {
+  display: flex;
+  gap: 224.2px;
+  padding: 62px 109px 62.64px;
+}
+.welcome-image {
+  width: 448.8px;
+  height: 407.36px;
+}
+.welcome-title {
+  margin-bottom: 42px;
+  font-family: var(--main-font-family);
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #717171;
+}
+.welcome-title-highlight {
+  color: #499a18;
+}
+.welcome-text {
+  margin: 0 0 48px;
+  width: 525.44px;
+  height: 105px;
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #636060;
+}
+.welcome-button {
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  width: 158px;
+  height: 44px;
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #edf2ec;
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  transition: color 0.5s;
+}
+.welcome-button:hover {
+  background-color: #e06733;
+  color: #ffffff;
+  cursor: pointer;
+}
