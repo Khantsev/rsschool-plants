@@ -78,7 +78,7 @@ body {
   color: #e06733;
 }
 
-/* Welcome */
+/* Section welcome */
 .welcome-wrap {
   display: flex;
   gap: 224.2px;
@@ -87,6 +87,7 @@ body {
 .welcome-image {
   width: 448.8px;
   height: 407.36px;
+  background-image: url("assets/image/leafs-1.png");
 }
 .welcome-title {
   width: 549px;
@@ -131,7 +132,7 @@ body {
   cursor: pointer;
 }
 
-/* About */
+/* Section about */
 .about {
   height: 666px;
   background-color: #ffffff;
@@ -155,6 +156,8 @@ body {
   color: #e06733;
 }
 .about-text {
+  width: 605px;
+  height: 208px;
   margin: 0;
   font-family: var(--main-font-family);
   font-size: 20px;
@@ -165,4 +168,5 @@ body {
 .about-image {
   width: 464px;
   height: 479px;
+  background-image: url("assets/image/houseplant.png");
 }
