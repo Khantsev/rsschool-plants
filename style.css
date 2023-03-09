@@ -127,8 +127,8 @@ body {
   transition: color 0.5s;
 }
 .welcome-button:hover {
-  background-color: #e06733;
   color: #ffffff;
+  background-color: #e06733;
   cursor: pointer;
 }
 
@@ -169,4 +169,102 @@ body {
   width: 464px;
   height: 479px;
   background-image: url("assets/image/houseplant.png");
+}
+
+/* Section service */
+.service {
+  height: 1300px;
+  background-color: #edf2ec;
+}
+.service-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 142px;
+  padding: 40px 324px 90px 109px;
+}
+.service-title {
+  margin: 0;
+  width: 306px;
+  height: 94px;
+  font-family: "Inika", serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #499a18;
+}
+.service-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+}
+.service-button {
+  width: 161px;
+  height: 50px;
+  padding: 12px 40px;
+  font-family: "Inika", serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #e06733;
+  background-color: #edf2ec;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  transition: color 0.5s;
+}
+.service-button:hover {
+  color: #ffffff;
+  background-color: #e06733;
+  cursor: pointer;
+}
+.projects-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 116px;
+  padding: 0 109px 121px;
+}
+.projects-item {
+  width: 330px;
+  height: 450px;
+}
+.projects-image {
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+}
+.first {
+  background-image: url("assets/image/first.png");
+}
+.second {
+  background-image: url("assets/image/second.png");
+}
+.third {
+  background-image: url("assets/image/third.png");
+}
+.fourth {
+  background-image: url("assets/image/fourth.png");
+}
+.fifth {
+  background-image: url("assets/image/fifth.png");
+}
+.sixth {
+  background-image: url("assets/image/sixth.png");
+}
+.projects-inner {
+  border: 1px solid #e3e1d5;
+  border-radius: 0px 0px 20px 20px;
+}
+.projects-title {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #e06733;
+}
+.projects-text {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #717171;
 }
