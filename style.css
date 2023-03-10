@@ -179,7 +179,7 @@ body {
 .service-wrap {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   gap: 142px;
   padding: 40px 324px 90px 109px;
 }
@@ -197,6 +197,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 38px;
+  padding-top: 29px;
 }
 .service-button {
   width: 161px;
@@ -220,7 +221,8 @@ body {
 .projects-wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 116px;
+  column-gap: 116px;
+  row-gap: 55px;
   padding: 0 109px 121px;
 }
 .projects-item {
@@ -228,7 +230,7 @@ body {
   height: 450px;
 }
 .projects-image {
-  width: 329px;
+  width: 330px;
   height: 350px;
   border-radius: 20px 20px 0px 0px;
 }
@@ -255,16 +257,20 @@ body {
   border-radius: 0px 0px 20px 20px;
 }
 .projects-title {
+  margin: 10px 0;
   font-family: var(--main-font-family);
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
+  text-align: center;
   color: #e06733;
 }
 .projects-text {
+  margin: 14px 0 34px;
   font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
+  text-align: center;
   color: #717171;
 }
