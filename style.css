@@ -179,7 +179,6 @@ body {
 .service-wrap {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   gap: 142px;
   padding: 40px 324px 90px 109px;
 }
@@ -274,3 +273,5 @@ body {
   text-align: center;
   color: #717171;
 }
+
+/* Price */
