@@ -113,6 +113,7 @@ body {
   color: #636060;
 }
 .welcome-button {
+  padding: 0;
   width: 158px;
   height: 44px;
   font-family: var(--main-font-family);
@@ -199,9 +200,9 @@ body {
   padding-top: 29px;
 }
 .service-button {
+  padding: 0;
   width: 161px;
   height: 50px;
-  padding: 12px 40px;
   font-family: "Inika", serif;
   font-size: 20px;
   line-height: 26px;
@@ -275,3 +276,92 @@ body {
 }
 
 /* Price */
+.price {
+  height: 560px;
+  background-color: #ffffff;
+}
+.price-wrap {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 438px; */
+  padding: 38px 109px 115px;
+}
+.prices-title {
+  margin: 0 0 60px;
+  font-family: var(--main-font-family);
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #000000;
+}
+.prices-accordion {
+  padding: 2px 41px 34px 40px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+.prices-accordion-button {
+  display: flex;
+  gap: 54px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 50px;
+  margin-top: 32px;
+  padding: 16px 0 16px 40px;
+  background: #edf2ec;
+  border-radius: 20px;
+}
+.prices-accordion-text {
+  width: 100px;
+  height: 18px;
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+.prices-accordion-image {
+  width: 16px;
+  height: 16px;
+  background-image: url("assets/image/icons/accordion-btn.svg");
+}
+.gardeners-title {
+  margin: 0 0 38px;
+  width: 452px;
+  height: 103px;
+  font-family: var(--main-font-family);
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: right;
+  color: #000000;
+}
+.gardeners-title-highlight {
+  color: #499a18;
+}
+.gardeners-button {
+  margin: 0 0 34px 290px;
+  padding: 0;
+  width: 162px;
+  height: 50px;
+  font-family: "Inika", serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #e06733;
+  background-color: #ffffff;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  transition: color 0.5s;
+}
+.gardeners-button:hover {
+  color: #ffffff;
+  background-color: #e06733;
+  cursor: pointer;
+}
+.gardeners-image {
+  width: 152px;
+  height: 174.99px;
+  margin-left: 295px;
+  background-image: url("assets/image/leafs-2.png");
+}
